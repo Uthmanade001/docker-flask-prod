@@ -5,7 +5,7 @@ services:
     build: .
     container_name: flask-app
     environment:
-      POSTGRES_HOST: prod-postgres.cv02cigeq69q.eu-west-2.rds.amazonaws.com
+      POSTGRES_HOST: prod-best.cv02cigeq69q.eu-west-2.rds.amazonaws.com
       POSTGRES_DB: mydb
       POSTGRES_USER: myuser
       POSTGRES_PASSWORD: mypassword
